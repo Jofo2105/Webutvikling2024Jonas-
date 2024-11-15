@@ -1,9 +1,54 @@
-       body{
-         media-screen 
-       }
-  box{
-    border:2px solid #000;
-    padding:5px;
-    margin:5px;
-    display:inline-block;
- }
+
+.filter-buttons{
+  display: inline-block;
+  background-color: white;
+  color:black;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.Kategorikort {
+  border: 1px solid black;
+  margin-bottom: 50px; 
+  padding: 120px;
+  text-align: center; 
+}
+
+.Kategorikort h3 {
+  margin: 0; 
+}
+
+.anmeldelser{
+  display:flex;
+  flex-direction: column;
+  border: 1px solid rgb(99, 81, 81);
+  padding:20px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.hundebilde.png{
+  max-width: 150px;
+  margin-bottom: 20px;
+}
+.breadcrumbs{
+  list-style: none;
+  display: flex;
+  gap: 0.5rem;
+  padding: 0;
+  margin: 0;
+}
+
+.breadcrumbs li {
+  display: inline-block;
+}
+h3{
+  display: inline;
+  margin-right:  90px; 
+}
+
+.beskrivelse{
+  display: inline;
+
+}
