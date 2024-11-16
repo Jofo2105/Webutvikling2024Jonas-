@@ -20,12 +20,15 @@
 }
 
 .anmeldelser{
-  display:flex;
-  flex-direction: column;
-  border: 1px solid rgb(99, 81, 81);
+  border:1px solid black;
+  margin : 20px;
   padding:20px;
-  margin-bottom: 20px;
-  text-align: left;
+  text-align:left;
+}
+
+.anmeldelse-bilde {
+  max-width: 150px; 
+  margin-right: 10px;
 }
 
 .hundebilde.png{
