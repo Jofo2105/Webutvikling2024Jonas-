@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
 
     <title>Checkout</title>
+    
 </head>
-<body>
+<body id="kasse-side">
     <div id="grid-container">
      <header id="global-header"> 
        <input type="text" placeholder="Søk her"><button><i class="fa-solid fa-magnifying-glass"></i></button>
@@ -56,5 +57,16 @@
                 </section>
         </main>
     </div>
+    <form id="leveringsadresse">
+        <h4>Leveringsadresse</h4>
+        <input type="text" placeholder="Fornavn*" required>
+        <input type="text" placeholder="Etternavn*" required>
+        <input type="text" placeholder="Gateaddresse*" required>
+        <input type="number" placeholder="Postnummer*" required>
+        <input type="text" placeholder="Poststed*" required>
+
+        <button type="submit" class="lagre-knappen">Lagre</button>
+        <a href="#">Avbryt</a>
+    </form>
 </body>
 </html>
