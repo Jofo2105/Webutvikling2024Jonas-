@@ -51,7 +51,7 @@
                         <p>Farge:beige</p>
                     </article>
                 </section>
-                <section id="Dine-opplysninger">
+                <section>
                   <h2>2. DINE OPPLYSNINGER</h2>
 
                 </section>
@@ -59,14 +59,42 @@
     </div>
     <form id="leveringsadresse">
         <h4>Leveringsadresse</h4>
-        <input type="text" placeholder="Fornavn*" required>
-        <input type="text" placeholder="Etternavn*" required>
-        <input type="text" placeholder="Gateaddresse*" required>
-        <input type="number" placeholder="Postnummer*" required>
-        <input type="text" placeholder="Poststed*" required>
+        <input type="text" placeholder="Fornavn*" required><br>
+        <input type="text" placeholder="Etternavn*" required><br>
+        <input type="text" placeholder="Gateaddresse*" required><br>
+        <input type="number" placeholder="Postnummer*" required><br>
+        <input type="text" placeholder="Poststed*" required><br>
 
-        <button type="submit" class="lagre-knappen">Lagre</button>
-        <a href="#">Avbryt</a>
+        <button type="submit" class="lagre-knappen">Lagre</button><br>
+        <a href="#">Avbryt</a><br>
     </form>
+    <h2>3. Levering</h2>
+    <h3>Leveringsvalg</h3>
+    <form>
+        <input type="radio" id="expresshjem" name="levering" value="expresshjem">
+        <label for="expresshjem">Express hjemlevering</label><br>
+        <input type="radio" id="expresspickup" name="levering" value="expresspickup">
+        <label for="expresspickup">Ekspress pakke til utlevering</label><br>
+        <input type="radio" id="standardhjem" name="levering" value="standardhjem">
+        <label for="standardhjem">Standard hjemlevering</label><br>
+    </form> 
+<h2>4. Betaling</h2>
+<h3>Betal med kort</h3>
+<label for="cardnumber">Kortnummer</label><br>
+<input type="number" id="cardnumber" placeholder="342442****5435" readonly><br>
+<label for="expirydate">Utløpsdato</label><br>
+<input type="date" id="expirydate"><br>
+<label for="cvc">CVC/CVV</label><br>
+<input type="text" id="cvc" placeholder="CVC/CVV"><br>
+
+<h4>Å betale inkl mva.</h4>
+<p>1 119kr</p>
+<button id="button2">Fullfør kjøp</button>
+<p>
+    Du bekrefter herved at opplysningene og dokumentene er korrekte og fullstendige.Leverandøren forbeholder seg retten til å heve eller eavslutte avtaforholdet dersom det foreligger urikttige eller ufullstendige opplysninger</p> 
+    <input type="checkbox" id="newsletter" name="newsletter">
+    <label for="newsletter">Ja takk! Send nyhetsbrev til meg.</label><br>
+    <input type="checkbox" id="sms" name="sms">
+    <label for="sms">Jeg ønsker og motta tekstmeldinger med tilbud og nyheter</label><br>
 </body>
 </html>
