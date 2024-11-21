@@ -76,20 +76,14 @@ h3{
  h2{
   margin-bottom: 20px;
  }
- input{
-  width: 100%;
-  padding:10px;
-  margin-bottom: 15px;
-  border:1px solid #ccc;
-  border-radius: 4px;
- }
+
  #lagre-knappen{
   display:inline-block;
   padding:10px 20px;
   background-color: #555;
   color:#fff;
   border: none;
-  border border-radius: 5px;
+  border-radius: 5px;
   font-weight:bold;
   text-align:center;
   }
@@ -104,3 +98,38 @@ margin:15px 0 5px;
     border: none;
     font-size: 16px;
   }
+
+  figure {
+    margin: 0;
+  }
+
+  .banner {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+
+  section nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+
+  section nav button {
+    background: white;
+    border: 1px solid #000;
+    width: 30%;
+    height: 40px;
+    margin: 0;
+  }
+
+.logo {
+  font-size: 30px;
+}
+
+.nav-links {
+  list-style-type: none;
+  padding: 0;
+}
